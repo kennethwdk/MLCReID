@@ -39,7 +39,7 @@ MLCReID/data
 
 ### Pretrained model
 
-ResNet-50 pretrained on ImageNet is needed for model initialization, download it and put it into *models/imagenet* dictionary (you can aslo omit this step by changing the code in *resnet.py* so that torchvision will automatically download it)
+ResNet-50 pretrained on ImageNet is needed for model initialization, download and put it into *models/imagenet* dictionary (you can also omit this step by changing the code in *resnet.py* so that torchvision will automatically download it)
 
 ```shell
 mkdir models
